@@ -5,7 +5,7 @@ class Solution:
 
         prefix = 1
         for i in range(n):
-            result[i] = prefix
+            result[i] *= prefix
             prefix *= nums[i]
 
         suffix = 1
